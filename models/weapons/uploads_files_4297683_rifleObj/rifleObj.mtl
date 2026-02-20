@@ -1,0 +1,35 @@
+# Blender 5.0.1 MTL File: 'None'
+# www.blender.org
+
+newmtl lambert4SG
+Ns 100.000015
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd rifleTexture/base_BaseColor.png
+map_Ks rifleTexture/base_Metallic.png
+map_Bump rifleTexture/base_Normal.png
+
+newmtl lambert5SG
+Ns 100.000015
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd rifleTexture/core_BaseColor.png
+map_Ks rifleTexture/core_Metallic.png
+map_Bump rifleTexture/core_Normal.png
+
+newmtl lambert7SG
+Ns 100.000015
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd rifleTexture/details_BaseColor.png
+map_Ks rifleTexture/details_Metallic.png
+map_Bump rifleTexture/details_Normal.png

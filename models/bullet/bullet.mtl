@@ -1,0 +1,6 @@
+newmtl bullet
+    map_Kd          Albedo.png
+    map_bump        Normal.png
+    norm            Normal.png
+    map_Pm          Metal.png       # metallic
+    map_Pr          Roughness.png   # roughness

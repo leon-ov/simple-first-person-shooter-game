@@ -1,0 +1,49 @@
+# sentry.mtl - PBR materials for Sentry model
+# Textures located in ./Textures/
+
+newmtl Base_mat
+    # Base / Albedo
+    map_Kd      Textures/Base_mat_Base_Color.png
+
+    # Metallic
+    map_Pm      Textures/Base_mat_Metallic.png
+    # map_Ks      Textures/Base_mat_Metallic.png   # альтернативное имя (некоторые загрузчики)
+
+    # Roughness
+    map_Pr      Textures/Base_mat_Roughness.png
+    # map_Ns      Textures/Base_mat_Roughness.png
+
+    # Normal (рекомендуется OpenGL-версия для Vulkan)
+    norm        Textures/Base_mat_Normal_OpenGL.png
+    map_bump    Textures/Base_mat_Normal.png
+
+    # Дополнительно (по желанию)
+    map_disp    Textures/Base_mat_Height.png        # displacement / height
+    map_ao      Textures/Base_mat_Mixed_AO.png      # AO (если движок поддерживает)
+
+    d 1.0
+    illum 2
+
+newmtl Mat_1
+    map_Kd      Textures/Mat_1_Base_Color.png
+    map_Pm      Textures/Mat_1_Metallic.png
+    map_Pr      Textures/Mat_1_Roughness.png
+    norm        Textures/Mat_1_Normal_OpenGL.png
+    map_bump    Textures/Mat_1_Normal.png
+    map_disp    Textures/Mat_1_Height.png
+    map_ao      Textures/Mat_1_Mixed_AO.png
+
+    d 1.0
+    illum 2
+
+newmtl Mat_2
+    map_Kd      Textures/Mat_2_Base_Color.png
+    map_Pm      Textures/Mat_2_Metallic.png
+    map_Pr      Textures/Mat_2_Roughness.png
+    norm        Textures/Mat_2_Normal_OpenGL.png
+    map_bump    Textures/Mat_2_Normal.png
+    map_disp    Textures/Mat_2_Height.png
+    map_ao      Textures/Mat_2_Mixed_AO.png
+
+    d 1.0
+    illum 2
